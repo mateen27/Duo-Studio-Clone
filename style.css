@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: #0F0D0D;
+}
+
+.page1 {
+    min-height: 100vh;  /*kam se kam height*/
+    width: 100%;
+}
+
+#nav img {
+    height : 24px;
+}
+
+#nav {
+    height: 55px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 22px;
+}
+
+#circle {
+    height : 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#nav h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#nav h4:nth-child(1) {
+    border-bottom: 2px solid;
+}
+
+.page1 > h1 {
+    font-size: 8vw;
+    font-weight: 500;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+
+.page1 > h2 {
+    font-size: 8vw;
+    font-weight: 500;
+    margin-left: 26vw;
+}
+
+.page1 > video {
+    width: 60%;
+    margin-top: 8vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.page2 {
+    min-height: 135vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 100px 0;
+    padding: 5vw;
+}
+
+.page2 h1 {
+    font-size: 7vw;
+    font-weight: 500;
+    color: #111
+}
+
+.page2-container {
+    height: 60vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 5vw; */
+}
+
+.page2-left {
+    width: 38%;
+    /* background-color: blue; */
+    line-height: 4vw;
+}
+
+.page2-right {
+    width: 21%;
+    /* background-color: blue; */
+}
+
+.page2-left h2{
+    font-size: 3.6vw;
+    font-weight: 300;
+    color: #111;
+}
+
+.page2-right p {
+    font-size: 1.4vw;
+    color: #111;
+}
+
+.page2-right button {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 6px 0;
+    background-color: #EDBFFF;
+    color: #111;
+    margin-top: 20px;
+}
